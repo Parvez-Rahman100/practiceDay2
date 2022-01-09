@@ -1,0 +1,59 @@
+/* Universal Start Here  */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Inline, Block , Inline-Block Elements Starts Here  */
+.elements{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Inline, Block , Inline-Block Elements Ends Here   */
+
+/* Positon Starts Here  */
+.pool{
+    position:absolute;
+    left: 50px;
+}
+.water{
+    position: relative;
+    top:-80px;
+}
+.ring{
+    position: relative;
+    z-index: 1;
+}
+.boy{
+    position: relative;
+    top:70px;
+    z-index: 2;
+}
+/* Position Ends Here  */
+
+/* Table Starts Here */
+.friends-table{
+    position: relative;
+    left: 600px;
+    top: 50px;
+    border: 2px solid orangered;
+    border-collapse: collapse;
+    
+}
+.headOfTable th, .bodyOfTable td{
+    border: 1px solid brown;
+    padding: 10px;
+}
+/* Table Ends Here  */
+
+
+
+/* Semantic Tags Starts Here */
+.semanticTags{
+    margin: 100px 0;
+}
+.semanticTags h1{
+    text-align: center;
+    font-size: 40px;
+    color:brown;
+}
