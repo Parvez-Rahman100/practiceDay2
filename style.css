@@ -1,20 +1,26 @@
 /* Universal Start Here  */
 *{
-    margin:0;
+    margin:10px 10px;
     padding:0;
 }
 
 /* Inline, Block , Inline-Block Elements Starts Here  */
-.elements{
+.container{
     display: flex;
     justify-content: space-evenly;
+}
+.elements{
+    border: 2px solid orangered;
+    padding:20px;
+    background-color: lightseagreen;
 }
 /* Inline, Block , Inline-Block Elements Ends Here   */
 
 /* Positon Starts Here  */
 .pool{
     position:absolute;
-    left: 50px;
+    left: 200px;
+    
 }
 .water{
     position: relative;
@@ -38,11 +44,13 @@
     top: 50px;
     border: 2px solid orangered;
     border-collapse: collapse;
+    box-shadow: 10px 10px 20px gray;
     
 }
 .headOfTable th, .bodyOfTable td{
     border: 1px solid brown;
     padding: 10px;
+    background-color: lightsteelblue;
 }
 /* Table Ends Here  */
 
@@ -51,9 +59,26 @@
 /* Semantic Tags Starts Here */
 .semanticTags{
     margin: 100px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
 }
 .semanticTags h1{
     text-align: center;
     font-size: 40px;
     color:brown;
+    margin-top: 10px;
+    
+}
+.semanticTags h2::first-letter{
+font-size: 30px;
+color: magenta;
+}
+.semanticTags h2{
+    margin-top:10px;
+    padding: 10px;
+}
+.semanticTags h2 p{
+    display: block;
+    margin-left: 20px;
 }
